@@ -39,3 +39,6 @@
 ### V6train_and_predict.py (Nihai Gelişmiş Model - LeakyReLU & MAE Kayıp Fonksiyonu)
 * **Mimari:** Modelin öğrenme hassasiyetini artırmak için klasik ReLU aktivasyon fonksiyonu yerine, ölü nöron problemini engelleyen **LeakyReLU** (`negative_slope=0.1`) katmanı eklenmiştir.
 * **Kayıp Fonksiyonu:** Modelin eğitim optimizasyonunda uç değerlere (anlık talep patlamalarına) karşı daha dirençli ve kararlı olan **MAE (Mean Absolute Error)** kayıp fonksiyonuna geçilmiştir. Dinamik öğrenme hızı düşürücü (`ReduceLROnPlateau`) eklenerek en optimum global minimuma ulaşılması sağlanmıştır.
+
+## Not
+Kodİncelemesi.xlsx doyasında kodlardan alınan sonuçların gerçek sonuçlarla karşılaştırılması yapılmıştır.
